@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-color: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-color: 40, 40, 40;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: rgb(var(--background-color));
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label {
+  color: rgb(var(--foreground-rgb));
+}
+
+input,
+textarea,
+select {
+  color: rgb(0, 0, 0);
+}
+
+.input-invalid {
+  @apply shadow-red-500 shadow-md;
+}
+
+.MuiSlider-markLabel {
+  color: rgb(var(--foreground-rgb)) !important;
+}
+
+/* Removes the spinners from number inputs */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

@@ -1,0 +1,16 @@
+{
+  "userData": {
+    "name": "John Doe",
+    "email": "test@test.com",
+    "login": "testADM",
+    "password": "test123",
+    "location": {
+      "lat": -23.55043282496482,
+      "lng": -46.634211631410146,
+      "address": "Praça da Sé",
+      "city": "São Paulo",
+      "state": "SP",
+      "zip_code": 1001000
+    }
+  }
+}
