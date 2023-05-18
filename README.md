@@ -96,7 +96,7 @@ kajiyamavk/trocatech
 
 # 4. Link para a aplicação {#4}
 
-Caso não queira trabalhar com Docker, não tem problema. Entre em https://trocatech.vercel.app/
+Caso não queira trabalhar com Docker, não tem problema. Entre em https://trocatech-ngp9yyge3-kajiyamavk.vercel.app/
 
 # 5. Considerações finais {#5}
 
